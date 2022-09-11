@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#nt-all {
+    font-size: 13px;
+}
+#top-alert{
+    font-weight: bold;
+}
+#nm-left {
+    margin-right: 50px;
+}
+
+#nt-left ul li::after,
+#nt-right ul li::after
+{
+    padding: 0 7px;
+    content: "|";
+}
+#nt-left ul li:last-child::after{
+    content: "";
+}
+#nm-right ul li::after{
+    content: "";
+    padding: 0 5px;
+}
+#nm-right ul li:last-child::after{
+    content: "";
+    padding: 0;
+}
+#searchinput {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid slateblue;
+}
+#location #lang {
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(105, 90, 205, 0.322);
+}
+#nb-mid {
+    padding-left: 1%;
+}
+
+#nb-mid, #nb-left {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nb-mid ul li::after
+{
+    padding: 0 7px;
+    content: "";
+}
+#nb-mid ul li:last-child::after{
+    content: "";
+}
+i {
+    padding: 0 5px;
+}
+
+#all-categories {
+    padding: 10px;
+    background-color: slateblue;
+}
