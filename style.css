@@ -23,7 +23,7 @@ body {
 
 .logo {
     width: 90%;
-    max-width: 220px;
+    max-width: 200px;
 }
 
 #search {
@@ -34,12 +34,12 @@ body {
 }
 
 .midrightfs{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 50px;
 }
 
 .midrightfs li::after{
-    padding-right: 1vw;
+    padding-right: 10px;
     content: "";
 }
 .midrightfs li:last-child::after{
