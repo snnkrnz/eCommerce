@@ -4,97 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eCommerce</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="navbar" class="container-xxl">
-        <div id="navbar-top" class="py-1">
-            <div id="nt-all" class="row align-items-center">
-                <div id="nt-left" class="d-none d-lg-block col-lg-3">
-                    <ul class="list-unstyled d-flex mb-0">
-                        <li>Hakkımızda</li>
-                        <li>Hesabım</li>
-                        <li>Sepetim</li>
-                        <li>Siparişlerim</li>
-                    </ul>
-                </div>
-                <div id="nt-mid" class="col-lg-6 text-center ">
-                    <span id="top-alert">Seçili RTX 30 Serisi Ürünleri Satın Alanlara Marvel’s Spider-Man Remastered Hediye</span>
-                </div>
-                <div id="nt-right" class="d-none d-lg-block col-lg-2">
-                    <ul class="list-unstyled d-flex mb-0 justify-content-end ">
-                        <li>Canlı Destek</li>
-                        <li>Türkçe</li>
-                        <li>TL</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div id="navbar-mid" class="border-bottom py-4 ">
-            <div class="nm-all row d-flex  align-items-center"> 
-                <div id="nm-left" class="col-lg-2 text-center">
-                    <div id="logo">
-                        <img src="/images/logo.svg" alt="Logo" width="170">
+    <div id="navbar">
+        
+        <div id="navbar-top" class="container-fluid border-bottom">
+            <div class="mw row mx-auto align-items-center">
+                <div id="navbar-top-left" class="col d-none d-lg-block px-0">
+                    <div id="ntl-leftmenu">
+                        <ul class="list-unstyled d-flex my-0">
+                            <li>Hakkımızda</li>
+                            <li>Hesabım</li>
+                            <li>Kampanyalar</li>
+                            <li>İletişim</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div id="nm-mid" class="d-none d-lg-flex col-lg-5 justify-content-start align-items-center">
-                    <div id="search" class="col-10 col-lg-9">
-                        <input type="search" name="search" id="searchinput">
+                <div id="navbar-top-mid" class="col-12 col-lg-4 text-center">
+                    <div id="ntl-midmenu">
+                        <span class="text-center fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, similique.</span>
                     </div>
-                    <div id="location" class="col-lg-2 px-2">
-                        <form action="#">
-                            <select name="languages" id="lang">
-                            <option value="lokasyon">Lokasyon</option>
-                            <option value="turkiye">Türkiye</option>
-                            <option value="usa">USA</option>
-                            <option value="germany">Germany</option>
-                            </select>
-                    </form>
+                </div>
+                <div id="navbar-top-right" class="col d-none d-lg-block px-0">
+                    <div id="ntl-rightmenu">
+                        <ul class="list-unstyled nav justify-content-end">
+                            <li>Canlı Destek</li>
+                            <li>Dil: Türkçe</li>
+                        </ul>
                     </div>
                 </div>
                 
-                <div id="nm-right" class="col-12 col-lg-auto d-flex justify-content-center">
-                    <ul class="list-unstyled d-flex mb-0">
-                        <li><i class="fa-solid fa-arrow-right-arrow-left"></i>Karşılaştır</li>
-                        <li><i class="fa-solid fa-heart"></i>Beğendiklerim</li>
-                        <li><i class="fa-solid fa-cart-shopping"></i>Sepetim</li>
-                        <li><i class="fa-solid fa-user"></i>Hesabım</li>
-                    </ul>
-                </div>
             </div>
         </div>
 
-        <div id="navbar-bottom" class="border-bottom row py-2">
-            <div id="nb-all" class="nm-all d-flex justify-content-between align-items-center flex-wrap">
-                <div id="nb-left" class="col-lg-auto text-center">
-                    <div id="all-categories" class="text-light border rounded"><i class="fa-solid fa-list"></i> Tüm Kategoriler <i class="fa-solid fa-arrow-down"></i></div>
-                </div>
-                <div id="nb-mid" class="d-none d-lg-b col-auto">
-                    <ul class="list-unstyled d-flex mb-0 ">
-                        <li><i class="fa-brands fa-hotjar text-danger"></i> Fırsatlar</li>
-                        <li>Ana Sayfa</li>
-                        <li>Hakkımızda</li>
-                        <li>Trendler</li>
-                        <li>Satıcılar</li>
-                        <li>Büyük Menü</li>
-                        <li>Blog</li>
-                        <li>Sayfalar</li>
-                        <li>İletişim</li>
-                    </ul>
-                </div>
-                <div id="nb-right" class="col-auto text-right">
-                    <div id="support">
-                        <i class="fa-sharp fa-solid fa-headset text-success"></i>24/7 Canlı Destek Hattı
+        <!-- nav 2 -->
+
+        <div id="navbar-mid" class="container-fluid border-bottom py-5">
+            <div class="mw row mx-auto align-items-center">
+                <div id="navbar-mid-left" class="col-12 col-lg-2 px-0 text-center text-lg-start">
+                    <div id="ntl-leftmenu">
+                        <img src="images/logo.svg" alt="Logo" class="logo">
                     </div>
                 </div>
+
+                <div id="navbar-mid-right" class="col px-0">
+                    <div id="nmr-midmenu">
+                        <input type="search" id="search" placeholder="Ürün ara.." class="d-none d-lg-inline-flex">
+                        <ul class="list-unstyled d-inline-flex float-end col-12 col-lg-auto justify-content-center midrightfs">
+                            <li>Siparişlerim</li>
+                            <li>Beğendiklerim</li>
+                            <li>Hesabım</li>
+                            <li>Sepetim</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
+
+        <div id="navbar-mid"></div>
+        <div id="navbar-bot"></div>
     </div>
 
 <script src="script.js"></script>
